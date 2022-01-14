@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.meetupCard {
+  width: 400px;
+  border: #fff solid 1px;
+  border-radius: 6px;
+  padding: 10px;
+}
+.meetupCard h2 {
+  color: #fff;
+}
+.meetupCard p {
+  color: rgba(255, 255, 255, 0.623);
+}
+.meetupCard section {
+  display: block;
+  width: 200px;
+  border-radius: 6px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.intresseBtn {
+  padding: 5px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  border-radius: 4px;
+}
+.intresseBtn:hover {
+  background: #61b95e;
+}
